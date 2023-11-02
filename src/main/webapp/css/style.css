@@ -1,0 +1,63 @@
+h2{
+    color: aqua;
+}
+.bienvenuIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+.bienvenuIndex div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.bienvenuIndex div button{
+    width: 300px;
+    height: 40px;
+}
+#header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#header ul li{
+    border: 1px solid red;
+    padding: 2px 10px;
+    border-radius:10px ;
+
+}
+#header{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    /*background-color: red;*/
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.form tr{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    width: 300px;
+}
